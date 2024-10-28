@@ -4,8 +4,8 @@ import UploadButton from "./CustomButton";
 
 const Contact = () => {
   return (
-    <main className=" z-[999999] ml-[200px] h-full   rounded-2xl bg-[#131417]  p-3  xl:ml-[290px] xl:h-full">
-      <header className="flex items-center justify-between p-4    text-[#BDBFC7] shadow-md  ">
+    <main className=" z-[999999] ml-[200px] h-full   rounded-2xl bg-[#131417]  p-4  xl:ml-[230px] xl:h-full">
+      <header className="flex items-center justify-between p-4 text-[#BDBFC7] shadow-md  ">
         {/* Projects Icon and Title */}
         <div className="flex items-center space-x-2">
           <svg
@@ -217,7 +217,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <div className="mx-auto mt-6 flex  w-full flex-col items-center justify-center rounded-md bg-[#292a30] p-6 xl:mt-2 xl:h-[58vh] xl:p-10">
+      <div className="mx-auto mt-6 flex  w-full flex-col items-center justify-center rounded-md bg-[#292a30] p-6 xl:mt-6 xl:h-[58vh] xl:p-10  ">
         <svg
           width="170"
           height="129"

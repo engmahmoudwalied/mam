@@ -29,9 +29,9 @@ const Sidebar = () => {
   }, [activeLink]);
 
   return (
-    <div className="flex w-1/7 fixed bg-[#1C1D21]">
+    <div className="flex w-[16%] fixed bg-[#1C1D21]">
       {/* Sidebar */}
-      <aside className="flex flex-col justify-between h-screen p-4 rounded-lg shadow-sm">
+      <aside className="flex flex-col justify-between w-full h-screen p-4 rounded-lg shadow-sm">
         <Link href="#">
           <svg
             width="146"

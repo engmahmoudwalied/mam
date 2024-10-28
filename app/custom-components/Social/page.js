@@ -5,8 +5,8 @@ import moza from "../../../public/images/Ai/moza.png";
 
 const Social = () => {
   return (
-    <main className=" z-[999999] ml-[200px] h-full   rounded-2xl bg-[#131417]  p-3  xl:ml-[290px] xl:h-full">
-      <header className="flex items-center justify-between p-4    text-[#BDBFC7]   ">
+    <main className=" z-[999999] ml-[200px] h-full   rounded-2xl bg-[#131417]  p-4  xl:ml-[240px] xl:h-full">
+      <header className="flex items-center justify-between     text-[#BDBFC7]   ">
         <div className="flex items-center space-x-2">
          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="9" cy="10.5" r="1" fill="currentColor"></circle><circle cx="15" cy="10.5" r="1" fill="currentColor"></circle><path d="M12.0002 16C11.1042 16 10.2999 15.6072 9.75019 14.9844C9.49854 14.6992 9.30023 14.3659 9.1709 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path><path d="M9.1709 14C9.30023 14.3659 9.49854 14.6992 9.75019 14.9844C10.2999 15.6072 11.1042 16 12.0002 16C12.8962 16 13.7005 15.6072 14.2502 14.9844C14.5019 14.6992 14.7002 14.3659 14.8295 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path><path d="M12 21.5C17.2467 21.5 21.5 17.2467 21.5 12C21.5 6.75329 17.2467 2.5 12 2.5" stroke="currentColor" stroke-width="1.5"></path><circle cx="9.5" cy="9.5" r="9.5" transform="matrix(-1 0 0 1 21.5 2.5)" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="3 3"></circle></svg>
           <span className="text-md">AI Twins</span>
