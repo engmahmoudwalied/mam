@@ -196,7 +196,7 @@ const Sidebar = () => {
                   />
                 </svg>
               </div>
-              <span className="text-[#BDBFC7]">settings</span>
+              <span className="text-[#BDBFC7]">Profile</span>
             </Link>
 
             <Link
