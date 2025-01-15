@@ -29,7 +29,7 @@ const Sidebar = () => {
   }, [activeLink]);
 
   return (
-    <div className="flex w-[16%] fixed bg-[#1C1D21]">
+    <div className="fixed flex w-[16%] bg-[#1C1D21]">
       {/* Sidebar */}
       <aside className="flex flex-col justify-between w-full h-screen p-4 rounded-lg shadow-sm">
         <Link href="#">
@@ -41,15 +41,15 @@ const Sidebar = () => {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
+              fillRule="evenodd"
+              clipRule="evenodd"
               d="M84.0442 0H80.2323V3.80803H84.0442V0ZM84.0442 6.47506H80.2323V25.5248H84.0442V6.47506ZM48.5274 8.53344V6.47494L44.711 6.49286V31.9998H48.5274V23.4662C49.3243 24.2666 50.2765 24.8958 51.3257 25.3152C52.3748 25.7346 53.4987 25.9352 54.6283 25.9049C60.4245 25.9049 64.5409 21.8328 64.5409 16.002C64.5409 10.1712 60.4245 6.09453 54.6283 6.09453C53.4987 6.06426 52.3748 6.26509 51.3257 6.68448C50.2765 7.10387 49.3243 7.73305 48.5274 8.53344ZM54.6283 22.4013C51.0045 22.4013 48.5274 19.846 48.5274 16.002C48.5274 12.1536 50.9687 9.56258 54.6283 9.56258C58.2879 9.56258 60.729 12.1581 60.729 16.002C60.729 19.846 58.252 22.4013 54.6283 22.4013ZM87.117 16.0022C87.117 10.2117 91.238 6.09473 97.0343 6.09473C102.83 6.09473 106.947 10.2117 106.947 16.0022C106.947 21.7927 102.83 25.9051 97.0343 25.9051C91.238 25.9051 87.117 21.8285 87.117 16.0022ZM103.135 16.0022C103.135 12.1538 100.694 9.56277 97.0343 9.56277C93.3747 9.56277 90.9289 12.1538 90.9289 16.0022C90.9289 19.8506 93.4105 22.4014 97.0343 22.4014C100.658 22.4014 103.135 19.8506 103.135 16.0022ZM113.791 6.47527H109.979L109.966 25.5251H113.778V14.0961C113.778 11.4291 115.457 9.56291 118.203 9.56291C120.833 9.56291 122.548 11.4112 122.548 14.0961V25.5251H126.364V14.0961C126.364 9.41092 123.287 6.09486 118.75 6.09486C117.822 6.0744 116.9 6.25065 116.046 6.61161C115.191 6.97258 114.423 7.51015 113.791 8.18919V6.47527ZM41.6832 25.9098H31.7661C29.8034 25.9106 27.8844 25.3299 26.2521 24.2411C24.6198 23.1523 23.3474 21.6044 22.5959 19.793C21.8444 17.9817 21.6477 15.9884 22.0303 14.0653C22.413 12.1421 23.358 10.3755 24.7458 8.98905C26.1337 7.60257 27.902 6.65845 29.827 6.27614C31.7521 5.89383 33.7473 6.09064 35.5605 6.8414C37.3736 7.59217 38.9231 8.86317 40.013 10.4939C41.1028 12.1246 41.6841 14.0415 41.6832 16.0023V25.9098ZM31.7661 10.1178C30.9792 10.0961 30.1959 10.2323 29.4625 10.5181C28.7292 10.804 28.0606 11.2338 27.4964 11.7821C26.9321 12.3305 26.4836 12.9864 26.1773 13.7109C25.8711 14.4353 25.7133 15.2137 25.7133 16.0001C25.7133 16.7865 25.8711 17.5649 26.1773 18.2893C26.4836 19.0138 26.9321 19.6697 27.4964 20.218C28.0606 20.7664 28.7292 21.1962 29.4625 21.4821C30.1959 21.7679 30.9792 21.904 31.7661 21.8823H37.6518V16.0023C37.6506 14.4427 37.0303 12.9474 35.9269 11.8442C34.8235 10.741 33.3271 10.1202 31.7661 10.1178ZM10.2565 22.4014C12.5992 22.4014 14.4446 21.3542 15.4659 19.5642H19.5823C18.2744 23.435 14.7985 25.9051 10.2565 25.9051C4.46026 25.9051 0.339233 21.7927 0.339233 16.0022C0.339233 10.2117 4.46026 6.09473 10.2565 6.09473C14.7627 6.09473 18.2565 8.58743 19.5735 12.4358H15.4703C14.4491 10.6325 12.5992 9.56277 10.2565 9.56277C6.63272 9.56277 4.15561 12.1583 4.15561 16.0022C4.15561 19.8461 6.63272 22.4014 10.2565 22.4014ZM76.8685 9.9431V6.47506H70.9244V0H67.1081V19.1256C67.1081 23.3544 69.2448 25.5248 73.5539 25.5248H76.873V22.021H73.8225C71.8785 22.021 70.9244 21.0677 70.9244 19.1256V9.9431H76.8685ZM132.631 20.1236L129.626 21.7837C131.126 24.6656 133.894 26.0843 137.487 26.0843C141.599 26.0843 145.151 23.7573 145.151 20.0834C145.151 15.8776 141.465 15.0523 138.341 14.3529C136.044 13.8386 134.051 13.3923 134.051 11.7198C134.051 10.1804 135.668 9.23174 137.446 9.23174C139.225 9.23174 140.806 9.82248 141.635 11.5229L144.64 9.82235C143.413 7.57595 140.954 5.91577 137.37 5.91577C133.142 5.91577 130.141 8.40388 130.141 11.7958C130.141 16.0348 133.799 16.8255 136.915 17.4989C139.227 17.9984 141.24 18.4335 141.24 20.164C141.24 21.8734 139.543 22.7683 137.33 22.7683C135.198 22.7683 133.617 22.0612 132.631 20.1236Z"
               fill="white"
             ></path>
           </svg>
         </Link>
         <Link
-          className={`my-5 flex w-14 items-start rounded p-3 lg:w-full transition-colors duration-300 ${
+          className={`my-5 flex w-14 items-start rounded p-3 transition-colors duration-300 lg:w-full ${
             activeLink === "/custom-components/projects"
               ? "rounded-xl bg-[#292A30]"
               : "rounded-xl hover:bg-[#292A30] "
@@ -122,7 +122,7 @@ const Sidebar = () => {
         </Link>
 
         <div className="workflow">
-          <h3 className="text-[#7C7F87] text-sm">Workflows</h3>
+          <h3 className="text-sm text-[#7C7F87]">Workflows</h3>
         </div>
         <Link
           className={`flex items-start gap-3 rounded p-3 transition-colors duration-300 ${
@@ -158,7 +158,7 @@ const Sidebar = () => {
 
         <footer className="pt-4 mt-auto text-gray-200 ">
           <section className="max-w-full mx-auto">
-            <h3 className="mb-4  uppercase text-sm text-[#7C7F87]">Account</h3>
+            <h3 className="mb-4  text-sm uppercase text-[#7C7F87]">Account</h3>
             <Link
               className={`flex items-start gap-3 rounded p-3 transition-colors duration-300 ${
                 activeLink === "/custom-components/settings"
@@ -200,7 +200,7 @@ const Sidebar = () => {
             </Link>
 
             <Link
-              className={`flex items-start gap-3 mt-2    rounded p-3 transition-colors duration-300 ${
+              className={`mt-2 flex items-start gap-3    rounded p-3 transition-colors duration-300 ${
                 activeLink === "/custom-components/profile"
                   ? "rounded-xl bg-[#292A30]"
                   : "rounded-xl hover:bg-[#292A30]"
@@ -227,49 +227,47 @@ const Sidebar = () => {
               <span className="text-[#BDBFC7]">API</span>
             </Link>
           </section>
-<a
-  href="#"
-  className="relative inline-flex items-center justify-center p-1 mt-6 border border-gray-700 rounded-lg  group hover:bg-[#292A30]"
->
-  <svg  
-    width="24"
-    height="24"
-    viewBox="0 0 24 24"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <path
-      d="M11.9996 12.7114L13.3272 11.9738C13.9897 11.6058 14.4006 10.9075 14.4006 10.1496C14.3222 8.88929 13.2413 7.92852 11.9805 7.99833C10.8539 7.95156 9.85348 8.71311 9.59863 9.81149"
-      stroke="currentColor"
-      strokeWidth="1.5"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    ></path>
-    <circle
-      cx="11.9998"
-      cy="12"
-      r="9.00375"
-      stroke="currentColor"
-      strokeWidth="1.5"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    ></circle>
-    <path
-      d="M12.1002 15.9017C12.1002 15.9569 12.0554 16.0016 12.0002 16.0016C11.9449 16.0016 11.9002 15.9568 11.9002 15.9016C11.9001 15.8464 11.9449 15.8016 12.0001 15.8015C12.0267 15.8015 12.0522 15.812 12.0709 15.8308C12.0897 15.8496 12.1003 15.8751 12.1002 15.9017"
-      stroke="currentColor"
-      strokeWidth="1.5"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    ></path>
-  </svg>
+          <a
+            href="#"
+            className="group relative mt-6 inline-flex items-center justify-center rounded-lg border border-gray-700  p-1 hover:bg-[#292A30]"
+          >
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M11.9996 12.7114L13.3272 11.9738C13.9897 11.6058 14.4006 10.9075 14.4006 10.1496C14.3222 8.88929 13.2413 7.92852 11.9805 7.99833C10.8539 7.95156 9.85348 8.71311 9.59863 9.81149"
+                stroke="currentColor"
+                strokeWidth="1.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              ></path>
+              <circle
+                cx="11.9998"
+                cy="12"
+                r="9.00375"
+                stroke="currentColor"
+                strokeWidth="1.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              ></circle>
+              <path
+                d="M12.1002 15.9017C12.1002 15.9569 12.0554 16.0016 12.0002 16.0016C11.9449 16.0016 11.9002 15.9568 11.9002 15.9016C11.9001 15.8464 11.9449 15.8016 12.0001 15.8015C12.0267 15.8015 12.0522 15.812 12.0709 15.8308C12.0897 15.8496 12.1003 15.8751 12.1002 15.9017"
+                stroke="currentColor"
+                strokeWidth="1.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              ></path>
+            </svg>
 
-  {/* Tooltip */}
-  <span className="absolute hidden px-1 py-1 mb-2 text-xs font-medium text-white bg-black rounded-md bottom-full group-hover:flex">
-    Help
-  </span>
-</a>
-
-
+            {/* Tooltip */}
+            <span className="absolute hidden px-1 py-1 mb-2 text-xs font-medium text-white bg-black rounded-md bottom-full group-hover:flex">
+              Help
+            </span>
+          </a>
         </footer>
       </aside>
     </div>
